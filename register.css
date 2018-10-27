@@ -1,0 +1,30 @@
+body {
+  background-image: url('images/doctor02.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#sec2 {
+  margin: auto;
+  background-color: #adbce6;
+  padding: 40px;
+}
+
+#box1 {
+  width: auto;
+  height: auto;
+  background-color: #adbce6;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+span {
+  text-align: center;
+  text-decoration-color: blue;
+}

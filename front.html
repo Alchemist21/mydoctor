@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="front.css">
+    <title>Diagnostic Tests</title>
+  </head>
+  <body>
+    <div class="container" id="sec3">
+
+      <h3>Patient Profile</h3>
+      <form action="#" name="Diagnostic Page" onsubmit="savePerson()">
+        <table align="center">
+
+      <tr>
+      <td> Date of Consult</td>
+      <td><input type="text"  id="date" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Name</td>
+      <td><input type="textname" name="textnames" id="textname" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Address</td>
+      <td><input type="text" name="address"
+      id="personaladdress" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Mobile Number</td>
+      <td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Age</td>
+      <td><input type="value"  id="age" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Birthday</td>
+      <td><input type="text" name="dob" id="dob" size="30"></td>
+      </tr>
+
+
+      <tr>
+      <td>Country</td>
+      <td><input type="text" name="country" id="country" size="30">
+      </td>
+      </tr>
+
+      <tr>
+      <td>Gender</td>
+      <td><input type="text" name="gender" id="gender" size="30">
+      </td>
+      </tr>
+
+      <tr>
+      <td>Ethnicity</td>
+      <td><input type="text" name="eth" id="eth" size="30">
+      </td>
+      </tr>
+
+      <tr>
+      <td>Marital Status</td>
+      <td><input type="text" name="mstatus" id="mstatus" size="30">
+      </td>
+      </tr>
+
+
+      <tr>
+      <td>Chief Complaint</td>
+      <td><input type=text id="ccom" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>History of Present Illness</td>
+      <td><input type=text id="hpi" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Review of Systems</td>
+      <td><input type=text id="ros" size="30"></td>
+      </tr>
+
+
+      <tr>
+      <td>Past Medical History</td>
+      <td><input type=text id="medhis" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Personal/Social History</td>
+      <td><input type=text id="perhis" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>OB/Gyne History</td>
+      <td><input type=text id="obhis" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Physical Examination</td>
+      <td><input type=text id="pe" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Diagnostic Results</td>
+      <td><input type="value" name="test" id="diagtest" size="30"></td>
+      </tr>
+
+
+      <tr>
+      <td>Impression</td>
+      <td><input type=text id="imp" size="30"></td>
+      </tr>
+
+      <tr>
+      <td>Treatment Plan</td>
+      <td><input type=text id="plan" size="30"></td>
+      </tr>
+
+      </table>
+      </form>
+      <br>
+
+    </div>
+
+    <br>
+    <div class="container">
+
+
+
+        <div class="row">
+          <div class="column" align="center">
+          <button onclick="exportTableToCSV('members.csv')">Download</button>
+            </form>
+
+          </div>
+          <div class="column" align="center">
+            <form class="inline" action="index.html">
+              <button class="float-left submit-button" > Log out</button>
+            </form>
+          </div>
+
+      </div>
+
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="front.js">
+    </script>
+    <br>
+    <br>
+  </body>
+</html>
