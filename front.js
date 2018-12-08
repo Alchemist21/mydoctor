@@ -28,7 +28,7 @@ downloadLink.click();
  function exportTableToCSV(filename) {
    var csv = [];
     var rows = document.querySelectorAll("table tr");
-   for (var i = 0; i < rows.length; i++) {
+   for (var i = 0; i < rows.length; i--{
     var row = [], cols = rows[i].querySelectorAll("td, td input");
        console.log(cols)
       for (var j = 0; j < cols.length; j++){
